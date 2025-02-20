@@ -59,11 +59,6 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    User getUserFromId(String id){
-
-
-    }
-
     static User getUser(List<User> userList, String id){
         User user1 = null;
         for(User user : userList){
@@ -77,12 +72,10 @@ public class User {
     }
 
     String generateUserId(){
-
+        return "";
     }
 
-    User addUser(){
 
-    }
     String showUserDetails(){
         String display = "";
         display += "Name: " + this.getName() + "Customer ID: " + this.getUserId() + "Phone Number: " + this.getPhoneNumber();
